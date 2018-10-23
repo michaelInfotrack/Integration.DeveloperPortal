@@ -1,0 +1,8 @@
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.deps.json
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.dll
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.pdb
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.csproj.CoreCompileInputs.cache
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.AssemblyInfoInputs.cache
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.AssemblyInfo.cs
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.dll
+C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.pdb

@@ -1,0 +1,12 @@
+﻿@page
+@model EditModel
+
+@{
+    ViewData["Title"] = "Edit Configuration";
+}
+
+<h2>Edit Configuration</h2>
+
+<hr />
+
+@await Html.PartialAsync("_ConfigurationPartial", Model.ProviderConfigurationModel)

@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<hr />
+<table id="dataTable" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Retailer Reference Prefix</th>
+            <th>Country</th>
+            <th>Environment</th>
+            <th>Enabled</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var configuration in Model.ProviderConfigurationModels)
+        {
+        <tr>
+            <td>@configuration.RetailerReferencePrefix</td>
+            <td>@configuration.CountryRegion</td>
+            <td>@configuration.Environment</td>
+            <td>@configuration.Enabled</td>
+            <td>
+                <a asp-page="./Configuration/Edit" asp-route-id="@configuration.ProviderConfigurationId">Edit</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts
+{
+    
+    <script>
+        $(document).ready(function () {
+            $('#dataTable').DataTable();
+        });
+    </script>
+    
+}

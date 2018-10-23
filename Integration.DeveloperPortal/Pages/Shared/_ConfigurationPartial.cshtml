@@ -1,0 +1,57 @@
+﻿@using Integration.DeveloperPortal.Logic.Enums;
+@using Integration.DeveloperPortal.Logic.Models;
+@model ProviderConfigurationModel
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <input type="hidden" asp-for="ProviderConfigurationId" />
+    <div class="form-group">
+        <label>Retail Reference Prefix</label>
+        <input type="text" asp-for="RetailerReferencePrefix" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Authentication Method</label>
+        <select asp-for="AuthenticationMethod" asp-items="Html.GetEnumSelectList<AuthenticationMethod>()" class="form-control"> </select>
+    </div>
+    <div class="form-group">
+        <label>Country Region</label>
+        <select asp-for="CountryRegion" asp-items="Html.GetEnumSelectList<Country>()" class="form-control"> </select>
+    </div>
+    <div class="form-group">
+        <label>Enabled</label>
+        <select asp-for="Enabled" asp-items="Html.GetEnumSelectList<ConfigurationStatus>()" class="form-control"> </select>
+    </div>
+    <div class="form-group">
+        <label>Endpoint</label>
+        <input type="text" asp-for="Endpoint" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Resource</label>
+        <input type="text" asp-for="Resource" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Request Type</label>
+        <select asp-for="RequestType" asp-items="Html.GetEnumSelectList<RequestType>()" class="form-control"> </select>
+    </div>
+    <div class="form-group">
+        <label>Content Type</label>
+        <select asp-for="ContentType" asp-items="@((IEnumerable<SelectListItem>)ViewData["ContentType"])" class="form-control"> </select>
+    </div>
+    <div class="form-group">
+        <label>Environment</label>
+        <select asp-for="Environment" asp-items="Html.GetEnumSelectList<ConfigurationEnvironment>()" class="form-control"> </select>
+    </div>
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" asp-for="Username" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="text" asp-for="Password" class="form-control" />
+    </div>
+
+    <hr/>
+
+    <input type="submit" id="btnSave" asp-page-handler="Save" value="Save" class="btn btn-success">
+    <input type="submit" id="btnCancel" asp-page-handler="Cancel" value="Cancel" class="btn btn-default">
+}

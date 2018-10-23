@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "wwwroot/js/jquery.dataTables.min.js",
+    "inputFiles": [
+      "wwwroot/js/jquery.dataTables.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/jquery.dataTables.min.css",
+    "inputFiles": [
+      "wwwroot/css/jquery.dataTables.css"
+    ]
+  }
+]
