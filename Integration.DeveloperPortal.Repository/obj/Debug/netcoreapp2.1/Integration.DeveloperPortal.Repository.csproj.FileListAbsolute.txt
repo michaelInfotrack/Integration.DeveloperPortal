@@ -17,3 +17,7 @@ C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Reposi
 C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csproj.CopyComplete
 C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.dll
 C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csprojAssemblyReference.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csproj.CoreCompileInputs.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.AssemblyInfoInputs.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.AssemblyInfo.cs

@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\Integration.DeveloperPortal.Logic.csproj": {}
+  },
+  "projects": {
+    "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\Integration.DeveloperPortal.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\Integration.DeveloperPortal.Logic.csproj",
+        "projectName": "Integration.DeveloperPortal.Logic",
+        "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\Integration.DeveloperPortal.Logic.csproj",
+        "packagesPath": "C:\\Users\\michael.lachlan\\.nuget\\packages\\",
+        "outputPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michael.lachlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.infotrack.com.au/nuget/global": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj": {
+                "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj",
+        "projectName": "Integration.DeveloperPortal.Model",
+        "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj",
+        "packagesPath": "C:\\Users\\michael.lachlan\\.nuget\\packages\\",
+        "outputPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michael.lachlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.infotrack.com.au/nuget/global": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj",
+        "projectName": "Integration.DeveloperPortal.Repository",
+        "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj",
+        "packagesPath": "C:\\Users\\michael.lachlan\\.nuget\\packages\\",
+        "outputPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michael.lachlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.infotrack.com.au/nuget/global": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj": {
+                "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

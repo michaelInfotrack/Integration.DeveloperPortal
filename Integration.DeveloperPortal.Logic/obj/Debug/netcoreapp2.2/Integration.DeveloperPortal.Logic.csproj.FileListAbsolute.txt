@@ -1,0 +1,14 @@
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.deps.json
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Repository.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Repository.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.csprojAssemblyReference.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.csproj.CoreCompileInputs.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.AssemblyInfoInputs.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.AssemblyInfo.cs
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.csproj.CopyComplete
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.pdb
