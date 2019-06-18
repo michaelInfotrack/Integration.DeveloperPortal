@@ -1,9 +1,0 @@
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.deps.json
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.dll
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.pdb
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.csprojAssemblyReference.cache
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.csproj.CoreCompileInputs.cache
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.AssemblyInfoInputs.cache
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.AssemblyInfo.cs
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.dll
-E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Model\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Model.pdb
