@@ -17,7 +17,8 @@ namespace Integration.DeveloperPortal.Repository
         public ProviderConfigurationRepository(IConfiguration configuration)
         {
             _configuration = configuration;
-            _connectionString = _configuration.GetConnectionString("SaaSIntegrationDatabase");
+
+            _connectionString = configuration.GetSection("SaaSIntegrationDatabase").Value;
         }
 
         public List<ProviderConfiguration> GetAllEnabledConfigurations()

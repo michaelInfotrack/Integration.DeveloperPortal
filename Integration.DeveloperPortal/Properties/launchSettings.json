@@ -19,7 +19,8 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SaaSIntegrationDatabase": "Data Source=ldmcoredev.infotrack.com.au,1433;Initial Catalog=SaaSIntegration;User Id=LDMSSecure;Password=V7497HMrkPDOdr2EBE5J;Application Name=SaaSIntegration;"
       },
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
