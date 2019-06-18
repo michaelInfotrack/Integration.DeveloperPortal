@@ -1,0 +1,9 @@
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.deps.json
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.csproj.CoreCompileInputs.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.AssemblyInfoInputs.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.AssemblyInfo.cs
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.csprojAssemblyReference.cache
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Authentication\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.pdb

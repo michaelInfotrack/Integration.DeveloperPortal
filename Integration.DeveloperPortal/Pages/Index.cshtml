@@ -19,7 +19,7 @@
         @foreach (var configuration in Model.ProviderConfigurationModels)
         {
         <tr>
-            <td>@configuration.RetailerReferencePrefix</td>
+            <td><a asp-page="./Configuration/Details" asp-route-id="@configuration.ProviderConfigurationId">@configuration.RetailerReferencePrefix</a></td>
             <td>@configuration.CountryRegion</td>
             <td>@configuration.Environment</td>
             <td>@configuration.Enabled</td>

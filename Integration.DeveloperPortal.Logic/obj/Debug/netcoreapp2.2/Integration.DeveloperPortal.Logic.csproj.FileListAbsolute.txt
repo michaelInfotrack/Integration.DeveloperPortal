@@ -12,3 +12,5 @@ E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\ne
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.csproj.CopyComplete
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.dll
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.Logic.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Logic\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.pdb

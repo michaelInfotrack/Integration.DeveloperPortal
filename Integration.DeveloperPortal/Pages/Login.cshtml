@@ -1,0 +1,56 @@
+﻿@page
+@model Integration.DeveloperPortal.Pages.Authentication.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <environment names="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/login.css" />
+    </environment>
+    <environment names="Test,Stage,Production">
+        <link rel="stylesheet" href="/wecare/kb/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/wecare/kb/css/login.css" />
+    </environment>
+    <title>Login - Integration Developer Portal</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form class="form-signin" id="frmLogin" asp-route-returnUrl="@ViewData["ReturnUrl"]" asp-page-handler="login">
+            <h2 style="text-align:center">Developer Portal</h2>
+            <input type="text" class="form-control" asp-for="LoginCredentialModel.Username" placeholder="Windows Id" required="" autofocus="" />
+            <input type="password" class="form-control" asp-for="LoginCredentialModel.Password" placeholder="Password" required="" />
+
+            <button id="btnLogin" class="btn btn-lg btn-primary btn-block" style="margin-top:10px;" type="submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Logging in">Login</button>
+            <br />
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </form>
+    </div>
+
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    </environment>
+
+    <environment names="Stage,Production,Test">
+        <script src="/wecare/kb/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/wecare/kb/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="/wecare/kb/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    </environment>
+    <script type="text/javascript">
+        $("#btnLogin").click(function () {
+            if ($("#frmLogin")[0].checkValidity()) {
+                var btn = $("#btnLogin");
+                btn.button("loading");
+                $("#frmLogin").submit();
+            }
+        });
+    </script>
+</body>
+</html>

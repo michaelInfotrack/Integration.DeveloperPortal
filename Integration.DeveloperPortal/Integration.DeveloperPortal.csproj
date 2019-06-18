@@ -17,10 +17,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Integration.DeveloperPortal.Authentication\Integration.DeveloperPortal.Authentication.csproj" />
     <ProjectReference Include="..\Integration.DeveloperPortal.DependencyResolution\Integration.DeveloperPortal.DependencyResolution.csproj" />
     <ProjectReference Include="..\Integration.DeveloperPortal.Logic\Integration.DeveloperPortal.Logic.csproj" />
   </ItemGroup>

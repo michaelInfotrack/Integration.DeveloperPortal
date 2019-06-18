@@ -1,0 +1,81 @@
+﻿@page
+@using Integration.DeveloperPortal.Logic.Enums
+@model DetailsModel
+@{
+    ViewData["Title"] = "Configuration Details";
+}
+
+<h2>Configuration Details</h2>
+
+<a asp-page="./Edit" asp-route-id="@Model.ProviderConfigurationModel.ProviderConfigurationId" class="pull-right">Edit</a>
+
+<br />
+<hr />
+<div class="form-group">
+    <label>Provider Configuration Id</label>
+    <input type="text" asp-for="ProviderConfigurationModel.ProviderConfigurationId" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Retail Reference Prefix</label>
+    <input type="text" asp-for="ProviderConfigurationModel.RetailerReferencePrefix" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Authentication Method</label>
+    <input type="text" asp-for="ProviderConfigurationModel.AuthenticationMethod" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Country Region</label>
+    <input type="text" asp-for="ProviderConfigurationModel.CountryRegion" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Enabled / Disabled</label>
+    <input type="text" asp-for="ProviderConfigurationModel.Enabled" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Endpoint</label>
+    <input type="text" asp-for="ProviderConfigurationModel.Endpoint" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Resource</label>
+    <input type="text" asp-for="ProviderConfigurationModel.Resource" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Request Type</label>
+    <input type="text" asp-for="ProviderConfigurationModel.RequestType" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Content Type</label>
+    <input type="text" asp-for="ProviderConfigurationModel.ContentType" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Environment</label>
+    <input type="text" asp-for="ProviderConfigurationModel.Environment" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Username</label>
+    <input type="text" asp-for="ProviderConfigurationModel.Username" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Password</label>
+    <input type="text" asp-for="ProviderConfigurationModel.Password" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Token Provider Endpoint</label>
+    <input type="text" asp-for="ProviderConfigurationModel.TokenProviderEndpoint" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Token Client Id</label>
+    <input type="text" asp-for="ProviderConfigurationModel.TokenClientId" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Token Client Secret</label>
+    <input type="text" asp-for="ProviderConfigurationModel.TokenClientSecret" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Token Scope</label>
+    <input type="text" asp-for="ProviderConfigurationModel.TokenScope" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label>Token Grant Type</label>
+    <input type="text" asp-for="ProviderConfigurationModel.TokenGrantType" class="form-control" readonly />
+</div>

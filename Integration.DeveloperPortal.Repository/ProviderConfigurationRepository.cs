@@ -60,6 +60,8 @@ namespace Integration.DeveloperPortal.Repository
                     "Password = @Password, Resource = @Resource, Endpoint = @Endpoint, " +
                     "CountryRegion = @CountryRegion, Environment = @Environment, ContentType = @ContentType, " +
                     "RequestType = @RequestType, AuthenticationMethod = @AuthenticationMethod, " +
+                    "TokenProviderEndpoint = @TokenProviderEndpoint, TokenClientId = @TokenClientId, " +
+                    "TokenClientSecret = @TokenClientSecret, TokenScope = @TokenScope, TokenGrantType = @TokenGrantType, " +
                     "Enabled = @Enabled " +
                     "WHERE ProviderConfigurationId = @ProviderConfigurationId";
 
@@ -75,6 +77,11 @@ namespace Integration.DeveloperPortal.Repository
                     providerConfiguration.ContentType,
                     providerConfiguration.RequestType,
                     providerConfiguration.AuthenticationMethod,
+                    providerConfiguration.TokenProviderEndpoint,
+                    providerConfiguration.TokenClientId,
+                    providerConfiguration.TokenClientSecret,
+                    providerConfiguration.TokenScope,
+                    providerConfiguration.TokenGrantType,
                     providerConfiguration.Enabled
                 });
             }
@@ -89,12 +96,16 @@ namespace Integration.DeveloperPortal.Repository
                     "RetailerReferencePrefix, Username," +
                     "Password, Resource, Endpoint, " +
                     "CountryRegion, Environment, ContentType, " +
-                    "RequestType, AuthenticationMethod, Enabled) " +
+                    "RequestType, AuthenticationMethod, " +
+                    "TokenProviderEndpoint, TokenClientId, TokenClientSecret, " +
+                    "TokenScope, TokenGrantType, Enabled) " +
                     "VALUES (" +
                     "@RetailerReferencePrefix, @Username, " +
                     "@Password, @Resource, @Endpoint, " +
                     "@CountryRegion, @Environment, @ContentType, " +
-                    "@RequestType, @AuthenticationMethod, @Enabled)";
+                    "@RequestType, @AuthenticationMethod, " +
+                    "@TokenProviderEndpoint, @TokenClientId, @TokenClientSecret, " +
+                    "@TokenScope, @TokenGrantType, @Enabled)";
 
 
                 dbConnection.Execute(query, new
@@ -109,6 +120,11 @@ namespace Integration.DeveloperPortal.Repository
                     providerConfiguration.ContentType,
                     providerConfiguration.RequestType,
                     providerConfiguration.AuthenticationMethod,
+                    providerConfiguration.TokenProviderEndpoint,
+                    providerConfiguration.TokenClientId,
+                    providerConfiguration.TokenClientSecret,
+                    providerConfiguration.TokenScope,
+                    providerConfiguration.TokenGrantType,
                     providerConfiguration.Enabled
                 });
             }

@@ -14,3 +14,5 @@ E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.DependencyResoluti
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.DependencyResolution\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.DependencyResolution.csproj.CopyComplete
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.DependencyResolution\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.DependencyResolution.dll
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.DependencyResolution\obj\Debug\netcoreapp2.2\Integration.DeveloperPortal.DependencyResolution.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.DependencyResolution\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.DependencyResolution\bin\Debug\netcoreapp2.2\Integration.DeveloperPortal.Authentication.pdb

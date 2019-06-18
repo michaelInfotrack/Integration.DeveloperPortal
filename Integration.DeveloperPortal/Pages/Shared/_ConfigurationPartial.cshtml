@@ -18,7 +18,7 @@
         <select asp-for="CountryRegion" asp-items="Html.GetEnumSelectList<Country>()" class="form-control"> </select>
     </div>
     <div class="form-group">
-        <label>Enabled</label>
+        <label>Enabled / Disabled</label>
         <select asp-for="Enabled" asp-items="Html.GetEnumSelectList<ConfigurationStatus>()" class="form-control"> </select>
     </div>
     <div class="form-group">
@@ -49,8 +49,28 @@
         <label>Password</label>
         <input type="text" asp-for="Password" class="form-control" />
     </div>
+    <div class="form-group">
+        <label>Token Provider Endpoint</label>
+        <input type="text" asp-for="TokenProviderEndpoint" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Token Client Id</label>
+        <input type="text" asp-for="TokenClientId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Token Client Secret</label>
+        <input type="text" asp-for="TokenClientSecret" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Token Scope</label>
+        <input type="text" asp-for="TokenScope" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Token Grant Type</label>
+        <input type="text" asp-for="TokenGrantType" class="form-control" />
+    </div>
 
-    <hr/>
+    <hr />
 
     <input type="submit" id="btnSave" asp-page-handler="Save" value="Save" class="btn btn-success">
     <input type="submit" id="btnCancel" asp-page-handler="Cancel" value="Cancel" class="btn btn-default">

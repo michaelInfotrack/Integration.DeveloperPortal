@@ -2,6 +2,7 @@
 using Integration.DeveloperPortal.Logic.Enums;
 using Integration.DeveloperPortal.Logic.Interfaces;
 using Integration.DeveloperPortal.Logic.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;

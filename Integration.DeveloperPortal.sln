@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.DeveloperPortal", "Integration.DeveloperPortal\Integration.DeveloperPortal.csproj", "{275CA754-9A36-4535-9995-6AA70FDD5A13}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.DeveloperPortal.Model", "Integration.DeveloperPortal.Model\Integration.DeveloperPortal.Model.csproj", "{487C273B-12BC-4851-9515-7A4EF886D903}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.DeveloperPortal.Repository", "Integration.DeveloperPortal.Repository\Integration.DeveloperPortal.Repository.csproj", "{D759857C-4AF6-47C5-875A-C619D07A4EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.DeveloperPortal.Authentication", "Integration.DeveloperPortal.Authentication\Integration.DeveloperPortal.Authentication.csproj", "{7E80F4CB-9D5F-432B-A2C3-0CA35A92791B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D759857C-4AF6-47C5-875A-C619D07A4EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D759857C-4AF6-47C5-875A-C619D07A4EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D759857C-4AF6-47C5-875A-C619D07A4EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E80F4CB-9D5F-432B-A2C3-0CA35A92791B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E80F4CB-9D5F-432B-A2C3-0CA35A92791B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E80F4CB-9D5F-432B-A2C3-0CA35A92791B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E80F4CB-9D5F-432B-A2C3-0CA35A92791B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

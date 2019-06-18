@@ -15,6 +15,11 @@ namespace Integration.DeveloperPortal.Logic.Models
         public string ContentType { get; set; }
         public RequestType RequestType { get; set; }
         public AuthenticationMethod AuthenticationMethod { get; set; }
+        public string TokenProviderEndpoint { get; set; }
+        public string TokenClientId { get; set; }
+        public string TokenClientSecret { get; set; }
+        public string TokenScope { get; set; }
+        public string TokenGrantType { get; set; }
         public ConfigurationStatus Enabled { get; set; }
     }
 }

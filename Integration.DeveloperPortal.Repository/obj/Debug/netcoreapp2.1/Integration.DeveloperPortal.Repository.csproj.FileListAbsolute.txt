@@ -17,7 +17,15 @@ C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Reposi
 C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csproj.CopyComplete
 C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.dll
 C:\Source Control\Integration.DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.deps.json
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.pdb
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\bin\Debug\netcoreapp2.1\Integration.DeveloperPortal.Model.pdb
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csprojAssemblyReference.cache
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csproj.CoreCompileInputs.cache
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.AssemblyInfoInputs.cache
 E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.AssemblyInfo.cs
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.csproj.CopyComplete
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.dll
+E:\Source Control\DeveloperPortal\Integration.DeveloperPortal.Repository\obj\Debug\netcoreapp2.1\Integration.DeveloperPortal.Repository.pdb

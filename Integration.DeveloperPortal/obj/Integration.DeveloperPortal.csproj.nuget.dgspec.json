@@ -4,6 +4,64 @@
     "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal\\Integration.DeveloperPortal.csproj": {}
   },
   "projects": {
+    "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj",
+        "projectName": "Integration.DeveloperPortal.Authentication",
+        "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj",
+        "packagesPath": "C:\\Users\\michael.lachlan\\.nuget\\packages\\",
+        "outputPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\michael.lachlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.infotrack.com.au/nuget/global": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Novell.Directory.Ldap.NETStandard2_0": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.DependencyResolution\\Integration.DeveloperPortal.DependencyResolution.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -22,7 +80,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +88,11 @@
           "https://proget.infotrack.com.au/nuget/global": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {
+              "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj": {
+                "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj"
+              },
               "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\Integration.DeveloperPortal.Logic.csproj": {
                 "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Logic\\Integration.DeveloperPortal.Logic.csproj"
               },
@@ -48,16 +109,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
@@ -87,7 +144,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -95,8 +152,11 @@
           "https://proget.infotrack.com.au/nuget/global": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {
+              "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj": {
+                "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj"
+              },
               "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj": {
                 "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Repository\\Integration.DeveloperPortal.Repository.csproj"
               }
@@ -110,12 +170,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
@@ -145,7 +205,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -153,7 +213,7 @@
           "https://proget.infotrack.com.au/nuget/global": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -164,12 +224,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
@@ -199,7 +259,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -207,7 +267,7 @@
           "https://proget.infotrack.com.au/nuget/global": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp2.1": {
             "projectReferences": {
               "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj": {
                 "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Model\\Integration.DeveloperPortal.Model.csproj"
@@ -222,7 +282,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -230,12 +290,12 @@
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
@@ -275,6 +335,9 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+              "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj": {
+                "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.Authentication\\Integration.DeveloperPortal.Authentication.csproj"
+              },
               "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.DependencyResolution\\Integration.DeveloperPortal.DependencyResolution.csproj": {
                 "projectPath": "E:\\Source Control\\DeveloperPortal\\Integration.DeveloperPortal.DependencyResolution\\Integration.DeveloperPortal.DependencyResolution.csproj"
               },
@@ -304,7 +367,7 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -313,6 +376,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.1, )"
             }
           },
           "imports": [
