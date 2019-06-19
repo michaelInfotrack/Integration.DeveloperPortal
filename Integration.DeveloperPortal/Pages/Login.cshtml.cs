@@ -23,12 +23,11 @@ namespace Integration.DeveloperPortal.Pages.Authentication
         {
             _authenticationService = authenticationService;
         }
-
-        [HttpPost]
-        [AllowAnonymous]
-        [ValidateAntiForgeryToken]
+        
         public IActionResult OnPostLogin(string returnUrl = null)
         {
+            Console.WriteLine("It is hitting the post");
+
             try
             {
                 var appUser = _authenticationService.Login(LoginCredentialModel.Username, LoginCredentialModel.Password);
@@ -73,8 +72,6 @@ namespace Integration.DeveloperPortal.Pages.Authentication
             return Page();
         }
 
-
-        [Authorize]
         public IActionResult OnGetLogout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
